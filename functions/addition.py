@@ -1,5 +1,10 @@
 # addition function
 
-def addition(num1, num2):
-    answer = num1 + num2
+def addition(numbers):
+    answer = 'BananaPancake'
+    for number in numbers:
+        if answer == 'BananaPancake':
+            answer = number
+        else:
+            answer = answer + number
     return answer

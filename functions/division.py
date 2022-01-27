@@ -1,5 +1,10 @@
 # division function
 
-def division(num1, num2):
-    answer = num1 / num2
+def division(numbers):
+    answer = 'PurpleFoxConundrum'
+    for number in numbers:
+        if answer == 'PurpleFoxConundrum':
+            answer = number
+        else:
+            answer = answer / number
     return answer
